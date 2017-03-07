@@ -1,7 +1,6 @@
 
 # Managing computers
 
-
 ## Registering computers
 
 When you first install Landscape, your computers are not known to the Landscape
@@ -55,20 +54,14 @@ about selected computers.
   processor, memory, network, storage, audio, video, PCI, and USB hardware, as
   well as BIOS information and CPU flags. 
 
-**Figure&nbsp;_place_holder;6.1.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers5.png)
+![Hardware for Application Server](../media/managecomputers5.png)
 
 - Clicking on PROCESSES displays information about all processes running on a
   computer at the last time it checked in with the Landscape server, and lets
   you end or kill processes by selecting them and clicking on the relevant
   buttons.
 
-**Figure&nbsp;_place_holder;6.2.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers6.png)
-
-  
+![Processes for Application Server](../media/managecomputers6.png)
 
 - Clicking on REPORTS displays seven pie charts that show what percentage of computers:
  - are securely patched
@@ -80,10 +73,7 @@ about selected computers.
 - Clicking on MONITORING displays graphs of key performance statistics, such as
   CPU load, memory use, disk use, and network traffic. 
 
-**Figure&nbsp;_place_holder;6.3.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers7.png)
-
+![Monitoring](../media/managecomputers7.png)
   
 You can also create custom graphs to display at the top of the page by clicking
 on the Create some now! link. A drop-down box at the top of the page lets you
@@ -97,10 +87,7 @@ The right side of the dashboard that displays when you click on your account
 menu, and when you click on the ACTIVITIES submenu, shows the status of
 Landscape activities, displayed in reverse chronological order.
 
-**Figure&nbsp;_place_holder;6.4.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers8.png)
-
+![Activities](../media/managecomputers8.png)
   
 You can view details on an individual activity by clicking on its description.
 Each activity is labeled with a status; possible values are:
@@ -123,19 +110,14 @@ what computers the activity applied to, who created it, and when.
 
 Clicking on USERS displays a list of users on each of the selected computers.
 
-**Figure&nbsp;_place_holder;6.5.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers9.png)
-
+![Users](../media/managecomputers9.png)
   
 You can select one or more users, then click one of the buttons at the top of
 the screen:
 
 - The ADD button lets you add a new user to the selected computers. 
 
-**Figure&nbsp;_place_holder;6.6.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers10.png)
+![User details](../media/managecomputers10.png)
 
 You must specify the person's name, a username, and a passphrase. You may also
 specify a location and telephone numbers. Click the ADD button at the bottom of
@@ -143,11 +125,8 @@ the screen to complete the operation.
 
 - The DELETE button displays a screen that lets you delete the selected users. 
 
-**Figure&nbsp;_place_holder;6.7.&nbsp;_place_holder;**
+![Affected users](../media/managecomputers11.png)
 
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers11.png)
-
-  
 You may also tick a checkbox to delete the user's home folders as well. Press
 the Delete button at the bottom of the screen to complete the operation.
 
@@ -155,9 +134,7 @@ the Delete button at the bottom of the screen to complete the operation.
   such as the person's name, primary group, passphrase, location, and telephone
   numbers, and add or remove the user from groups on the selected computers.
 
-**Figure&nbsp;_place_holder;6.8.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers12.png)
+![User groups](../media/managecomputers12.png)
 
 - The LOCK button prevents the selected users from logging into their accounts.
 
@@ -190,9 +167,7 @@ of alert you want to subscribe to, or click the All or None buttons at the top
 of the table, then click on the Subscribe or Unsubscribe button below the
 table.
 
-**Figure&nbsp;_place_holder;6.9.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers13.png)
+![Alerts](../media/managecomputers13.png)
 
 The Alerts screen shows the status of each alert. If an alert has not been
 tripped, the status is OK; if it has, the status is Alerted. The last column
@@ -208,9 +183,7 @@ screen shows relevant information about the problem. For instance, if you click
 on an alert about computers having issues reporting packages, the table shows
 the computer affected, the error code, and error output text.
 
-**Figure&nbsp;_place_holder;6.10.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers14.png)
+![Package reporting issues](../media/managecomputers14.png)
 
 On some alert screens you can download the list of affected computers as a CSV
 file or save the criteria that generated the alert as a saved search by
@@ -228,10 +201,7 @@ SCRIPTS menu under COMPUTERS.
 The Stored scripts screen displays a list of existing scripts, along with the
 access groups each belongs to and its creator.
 
-**Figure&nbsp;_place_holder;6.11.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers15.png)
-
+![Stored Scripts](../media/managecomputers15.png)
   
 You can edit a script by clicking on its name. To delete a stored script, tick
 the check box next to its name, then click Remove. If you have the proper
@@ -241,9 +211,7 @@ confirmation.
 From the Stored scripts screen you can add a new script by clicking on Add
 stored script.
 
-**Figure&nbsp;_place_holder;6.12.&nbsp;_place_holder;**
-
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers16.png)
+![Create script](../media/managecomputers16.png)
 
   
 On the Create script screen you must enter a title, interpreter, the script
@@ -259,11 +227,8 @@ a stored script, click on Save to save it.
 To run a stored script, go to the SCRIPTS menu under COMPUTERS. Here you can
 choose to run a stored script, or run a new script.
 
-**Figure&nbsp;_place_holder;6.13.&nbsp;_place_holder;**
+![Select script to run](../media/managecomputers17.png)
 
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers17.png)
-
-  
 When you choose to run an existing script, Landscape displays the script
 details, which allows you to modify any information. You must specify the user
 on the target computers to run the script as, and schedule the script to run
@@ -273,11 +238,8 @@ the script, click on Run.
 To run a new script, you must enter most of the same information you would if
 you were creating a stored script, with three differences.
 
-**Figure&nbsp;_place_holder;6.14.&nbsp;_place_holder;**
+![Run a script](../media/managecomputers18.png)
 
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers18.png)
-
-  
 On this screen you must specify the user on the target computers to run the
 script as, and you may optionally tick a check box to store the script in your
 script library. You must also schedule the script to run either as soon as
@@ -297,11 +259,8 @@ PROFILES link in the PROFILES choice under your account.
 When you do so, Landscape displays a list of the names and descriptions of
 existing upgrade profiles.
 
-**Figure&nbsp;_place_holder;6.15.&nbsp;_place_holder;**
+![Upgrade profiles](../media/managecomputers19.png)
 
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers19.png)
-
-  
 To see the details of an existing profile, click on its name to display a
 screen that shows the name, schedule, and tags of computers associated with the
 upgrade profile. If you want to change the upgrade profile's name or schedule,
@@ -313,11 +272,8 @@ change the access groups anywhere but from their association with a computer.
 
 To add an upgrade profile, click on the Add upgrade profile link.
 
-**Figure&nbsp;_place_holder;6.16.&nbsp;_place_holder;**
+![Create upgrade profile](../media/managecomputers20.png)
 
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers20.png)
-
-  
 On the resulting Create an upgrade profile screen you must enter a name for the
 upgrade profile. Names can contain only letters, numbers, and hyphens. You may
 check a box to make the upgrade profile apply only to security upgrades; if you
@@ -348,11 +304,8 @@ REMOVAL PROFILES link in the PROFILES choice under your account.
 When you do so, Landscape displays a list of the names and descriptions of
 existing removal profiles.
 
-**Figure&nbsp;_place_holder;6.17.&nbsp;_place_holder;**
+![Removal profiles](../media/managecomputers21.png)
 
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers21.png)
-
-  
 To see the details of an existing profile, click on its name to display a
 screen that shows the title, name and number of days without exchange before
 the computer is automatically removed, and tags of computers associated with
@@ -366,11 +319,8 @@ from their association with a computer.
 
 To add a removal profile, click on the Add removal profile link.
 
-**Figure&nbsp;_place_holder;6.18.&nbsp;_place_holder;**
+![Create removal profile](../media/managecomputers22.png)
 
-![](Chapter%C2%A06.%C2%A0Managing%20computers_files/managecomputers22.png)
-
-  
 On the resulting Create a removal profile screen you must enter a title for the
 removal profile. Specify the access group to which the removal profile belongs
 from a drop-down list. Finally, specify the number of days without exchange
